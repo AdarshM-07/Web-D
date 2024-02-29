@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white ;
+    color:black; 
+}
+.light{
+    padding-left: 10%;
+    margin-bottom: 1%;
+}
+
+
+.blue {
+    background-color: rgb(3, 186, 247); /* This will set the background color to red */
+    width: 90%; 
+    height: 100%;
+    padding-left: 10%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.img{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+   
+    background: linear-gradient(white 40%,rgb(1, 189, 251) 40%);
+    
+}
+.txt{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+  
+}
+
+.image-container {
+    
+    height: 336px;
+    width: 286px;
+    background-image:url("rishiraj 1.png") ;
+    background-position:center;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat; */
+}
+
+.image-container:hover{
+
+    height: 336px;
+    width: 286px;
+    background-image:url("Mask group (4).png") ;
+    background-position:center;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat; */
+}
+.image-container1 {
+    height: 345px;
+    width: 220px;
+    background-image:url("image 13.png") ;
+    background-position: center;
+}
+.image-container1:hover{
+    height: 345px;
+    width: 220px;
+    background-image:url("Mask group (5).png") ;
+    background-position: center;
+}
+
+.image-container2 {
+    height: 376px;
+    width: 232px;
+    background-image:url("image 16.png") ;
+    background-position: center;
+}
+.image-container2:hover{
+    height: 376px;
+    width: 232px;
+    background-image:url("Mask group (6).png") ;
+    background-position: center;
+}
