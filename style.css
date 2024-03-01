@@ -41,43 +41,35 @@ body{
     
     height: 336px;
     width: 286px;
-    background-image:url("rishiraj 1.png") ;
+    background-image:url("Mask group (4).png") ;
     background-position:center;
-    /* background-attachment: fixed;
-    background-repeat: no-repeat; */
+    filter: grayscale(100%);
+   
 }
 
 .image-container:hover{
 
-    height: 336px;
-    width: 286px;
-    background-image:url("Mask group (4).png") ;
-    background-position:center;
-    /* background-attachment: fixed;
-    background-repeat: no-repeat; */
+    filter: none;
+    
 }
 .image-container1 {
     height: 345px;
     width: 220px;
-    background-image:url("image 13.png") ;
-    background-position: center;
-}
-.image-container1:hover{
-    height: 345px;
-    width: 220px;
     background-image:url("Mask group (5).png") ;
     background-position: center;
+    filter: grayscale(100%);
+}
+.image-container1:hover{
+    filter: none;
 }
 
 .image-container2 {
     height: 376px;
     width: 232px;
-    background-image:url("image 16.png") ;
-    background-position: center;
+    background-image:url("Mask group (6).png") ;
+    background-position: top;
+    filter: grayscale(100%);
 }
 .image-container2:hover{
-    height: 376px;
-    width: 232px;
-    background-image:url("Mask group (6).png") ;
-    background-position: center;
+    filter: none;
 }
