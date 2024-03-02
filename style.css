@@ -8,13 +8,18 @@ body{
     color:black; 
 }
 .light{
+    padding-top: 2%;
     padding-left: 10%;
     margin-bottom: 1%;
 }
 
 
 .blue {
-    background-color: rgb(3, 186, 247); /* This will set the background color to red */
+    background: linear-gradient(
+    #0067B3 0%, /* 80% of the width with color #0067B3 */
+    #5183B8 0%, /* Transition to color #5183B8 starting from 80% */
+    #5183B8 0% /* Continue with color #5183B8 for the rest of the width */
+  );  
     width: 90%; 
     height: 100%;
     padding-left: 10%;
@@ -27,7 +32,11 @@ body{
     justify-content:space-around;
     align-items: flex-end;
    
-    background: linear-gradient(white 40%,rgb(1, 189, 251) 40%);
+    background: linear-gradient(white 40%,
+    #0067B3 40%, /* 80% of the width with color #0067B3 */
+    #5183B8 40%, /* Transition to color #5183B8 starting from 80% */
+    #5183B8 40% /* Continue with color #5183B8 for the rest of the width */
+  );   
     
 }
 .txt{
@@ -72,4 +81,61 @@ body{
 }
 .image-container2:hover{
     filter: none;
+}
+
+.txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+.txt-container{
+    
+        flex: 1; /* Each section takes equal space */
+      
+}
+.image-container4 {
+    
+    height: 410px;
+    width: 302px;
+    background-image:url("Mask group (8).png") ;
+    background-position:top;
+    filter: grayscale(100%);
+   
+}
+
+.image-container4:hover{
+
+    filter: none;
+    
+}
+.image-container5 {
+    height: 405px;
+    width: 300px;
+    background-image:url("Mask group (7).png") ;
+    background-position: top;
+    filter: grayscale(100%);
+}
+.image-container5:hover{
+    filter: none;
+}
+
+.image-container6 {
+    height: 410px;
+    width: 300px;
+    background-image:url("Mask group (9).png") ;
+    background-position: top;
+    filter: grayscale(100%);
+}
+.image-container6:hover{
+    filter: none;
+}
+
+.material-symbols-outlined {
+    
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
