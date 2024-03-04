@@ -51,7 +51,7 @@ body{
     
     height: 336px;
     width: 286px;
-    background-image:url("Mask group (4).png") ;
+    background-image:url("items/Mask group (4).png") ;
     background-position:center;
     filter: grayscale(100%);
    
@@ -65,7 +65,7 @@ body{
 .image-container1 {
     height: 345px;
     width: 220px;
-    background-image:url("Mask group (5).png") ;
+    background-image:url("items/Mask group (5).png") ;
     background-position: center;
     filter: grayscale(100%);
 }
@@ -76,7 +76,7 @@ body{
 .image-container2 {
     height: 376px;
     width: 232px;
-    background-image:url("Mask group (6).png") ;
+    background-image:url("items/Mask group (6).png") ;
     background-position: top;
     filter: grayscale(100%);
 }
@@ -99,7 +99,7 @@ body{
     
     height: 410px;
     width: 302px;
-    background-image:url("Mask group (8).png") ;
+    background-image:url("items/Mask group (8).png") ;
     background-position:top;
     filter: grayscale(100%);
    
@@ -113,7 +113,7 @@ body{
 .image-container5 {
     height: 405px;
     width: 300px;
-    background-image:url("Mask group (7).png") ;
+    background-image:url("items/Mask group (7).png") ;
     background-position: top;
     filter: grayscale(100%);
 }
@@ -124,7 +124,7 @@ body{
 .image-container6 {
     height: 410px;
     width: 300px;
-    background-image:url("Mask group (9).png") ;
+    background-image:url("items/Mask group (9).png") ;
     background-position: top;
     filter: grayscale(100%);
 }
