@@ -281,7 +281,7 @@ nav {
     .hamburger-menu {
         display: block;
         /* Show the hamburger menu */
-        position: fixed;
+        position: absolute;
         /* Fix the position */
         top: 20px;
         /* Adjust as needed */
