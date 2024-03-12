@@ -78,15 +78,36 @@ body {
             /* Transition to color #5183B8 starting from 80% */
             #5183B8 40%
             /* Continue with color #5183B8 for the rest of the width */
-        );
+        ); 
+        /* height: 100px; 
+    /* background : linear-gradient(to bottom, white 40%, #0067B3 40%, #5183B8 40%, #5183B8 40%, white 0%); */
+
 
 }
+.imgst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
+    background: linear-gradient(white 40%,
+            #0067B3 40%,
+            /* 80% of the width with color #0067B3 */
+            #5183B8 40%,
+            /* Transition to color #5183B8 starting from 80% */
+            #5183B8 40%
+            /* Continue with color #5183B8 for the rest of the width */
+        ); 
+        /* height: 100px; 
+    /* background : linear-gradient(to bottom, white 40%, #0067B3 40%, #5183B8 40%, #5183B8 40%, white 0%); */
+
+
+}
 .txt {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-
+    padding-top: 10%;
 }
 
 .image-container {
@@ -96,9 +117,12 @@ body {
     background-image: url("items/Mask group (4).png");
     background-position: center;
     filter: grayscale(100%);
+    /* padding-top: 10%; */
 
 }
-
+.ntsh{
+    display: none;
+}
 .image-container:hover {
 
     filter: none;
@@ -212,7 +236,12 @@ nav {
     .hamburger-menu:checked+.dropdown-menu {
         display: block;
     }
-
+.ntsh{
+    display: block;
+}
+.j{
+    display: none;
+}
     .dropdown-menu {
         display: none;
         position: absolute;
@@ -277,7 +306,9 @@ nav {
         display: none;
         /* Hide the navigation bar */
     }
-
+    .c{
+        display: none;
+    }
     .hamburger-menu {
         display: block;
         /* Show the hamburger menu */
